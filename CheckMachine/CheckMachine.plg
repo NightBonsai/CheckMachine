@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CheckMachine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TMP\RSP98CE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/CheckMachine.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Microsoft Visual Studio\MyProjects\CheckMachine\CargoInLibWin.cpp"
+]
+Creating command line "cl.exe @C:\TMP\RSP98CE.tmp" 
+Creating temporary file "C:\TMP\RSP98CF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/CheckMachine.pdb" /debug /machine:I386 /out:"Debug/CheckMachine.exe" /pdbtype:sept 
+".\Debug\CAdminWin.obj"
+".\Debug\Cargo.obj"
+".\Debug\CargoCheckMenu.obj"
+".\Debug\CargoInLibMenu.obj"
+".\Debug\CargoInLibWin.obj"
+".\Debug\CargoOutLibMenu.obj"
+".\Debug\CargoOutLibWin.obj"
+".\Debug\CargoSearch.obj"
+".\Debug\CButton.obj"
+".\Debug\CData.obj"
+".\Debug\CEdition.obj"
+".\Debug\CheckRecord.obj"
+".\Debug\CheckRecordWin.obj"
+".\Debug\CheckWin.obj"
+".\Debug\CLabel.obj"
+".\Debug\CLogWin.obj"
+".\Debug\CNewCheckWin.obj"
+".\Debug\CorrectRecordWin.obj"
+".\Debug\CRegistWin.obj"
+".\Debug\CSelectButton.obj"
+".\Debug\CStartWin.obj"
+".\Debug\CTable.obj"
+".\Debug\CTool.obj"
+".\Debug\CtrlBase.obj"
+".\Debug\CUser.obj"
+".\Debug\CWindow.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\TMP\RSP98CF.tmp"
+<h3>Output Window</h3>
+Compiling...
+CargoInLibWin.cpp
+Linking...
+Creating temporary file "C:\TMP\RSP9A76.tmp" with contents
+[
+/nologo /o"Debug/CheckMachine.bsc" 
+".\Debug\CAdminWin.sbr"
+".\Debug\Cargo.sbr"
+".\Debug\CargoCheckMenu.sbr"
+".\Debug\CargoInLibMenu.sbr"
+".\Debug\CargoInLibWin.sbr"
+".\Debug\CargoOutLibMenu.sbr"
+".\Debug\CargoOutLibWin.sbr"
+".\Debug\CargoSearch.sbr"
+".\Debug\CButton.sbr"
+".\Debug\CData.sbr"
+".\Debug\CEdition.sbr"
+".\Debug\CheckRecord.sbr"
+".\Debug\CheckRecordWin.sbr"
+".\Debug\CheckWin.sbr"
+".\Debug\CLabel.sbr"
+".\Debug\CLogWin.sbr"
+".\Debug\CNewCheckWin.sbr"
+".\Debug\CorrectRecordWin.sbr"
+".\Debug\CRegistWin.sbr"
+".\Debug\CSelectButton.sbr"
+".\Debug\CStartWin.sbr"
+".\Debug\CTable.sbr"
+".\Debug\CTool.sbr"
+".\Debug\CtrlBase.sbr"
+".\Debug\CUser.sbr"
+".\Debug\CWindow.sbr"
+".\Debug\main.sbr"]
+Creating command line "bscmake.exe @C:\TMP\RSP9A76.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CheckMachine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
